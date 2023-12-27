@@ -7,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
-	<title>Programs</title>
+	<title>Add user</title>
 </head>
 <body>
 	<div class="all_content">
@@ -59,37 +59,26 @@
 
 			<div class="screen">
 				<div class="move_right">
-					<div class="category">
-						<h2>Список благодійних програм</h2>
-						<input type="button" class="purple_btn" value="Нова програма">
+					<div class="category" id="for_add_gap">
+						<h2>Додати користувача</h2>
+						<input type="submit" class="purple_btn" value="Назад">
 					</div>
 				</div>
 				
-
-				<div class="program_list">
-					<div class="program">
-						<p>Назва програми</p>
-						<img src="images/close.svg">
+				
+				<div class="new_program">
+					<div class="prog_form">
+						<div class="inputs">
+							<input type="text" name="name" placeholder="ПІБ">
+							<input type="text" name="cost" placeholder="Контактний номер телефону">
+							<input type="text" name="cost" placeholder="Дата народження">
+						</div>
 					</div>
-
-					<div class="program">
-						<p>Назва програми</p>
-						<img src="images/close.svg">
-					</div>
-
-					<div class="program">
-						<p>Назва програми</p>
-						<img src="images/close.svg">
-					</div>
-
-					<div class="program">
-						<p>Назва програми</p>
-						<img src="images/close.svg">
-					</div>
+					<input type="submit" class="purple_btn submit" value="Додати">
 				</div>
+				
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>

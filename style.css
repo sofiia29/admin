@@ -171,8 +171,11 @@ body{
 	width: 100%;
 }
 
-.screen .category{
+.move_right{
+	display: flex;
 	justify-content: flex-end;
+	width: 100%;
+	margin-right: 44px;
 }
 
 .category{
@@ -190,6 +193,7 @@ h2{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	text-align: center;
 }
 
 .program_list{
@@ -198,7 +202,7 @@ h2{
 	gap: 25px;
 }
 
-.program{
+.program, .user{
 	display: flex;
 	flex-direction: row;
 	gap: 790px;
@@ -211,7 +215,7 @@ h2{
 	align-items: center;
 }
 
-.program p{
+.program p, .user p, .user_info p{
 	margin: 0;
 	font-size: 18px;
 	font-style: normal;
@@ -249,4 +253,64 @@ h2{
 
 .load_file:hover{
     background: #9F9DC5;
+}
+
+.user{
+	gap: 400px;
+}
+
+.user_btn{
+	display: flex;
+	flex-direction: row;
+	gap: 9px;
+}
+
+.purple_btn_user{
+	display: flex;
+	align-items: center;
+	border-radius: 40px;
+	border: 1px solid #776C6C;
+	background: #C0BFD2;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	padding: 4px 35px;
+}
+
+.purple_btn_user:hover{
+    background: #9F9DC5;
+}
+
+#for_add_gap{
+	gap: 260px;
+}
+
+.user_info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+	align-items: center;
+	margin-top: 23px !important;
+}
+
+.with_backgr{
+	border-radius: 40px;
+	border: 1px solid #776C6C;
+	background: #EAEAEA;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	padding: 13px 230px;
+	box-sizing: border-box;
+	margin: 0;
+	width: 690px;
+}
+
+#for_info_gap{
+	gap: 300px;
 }
