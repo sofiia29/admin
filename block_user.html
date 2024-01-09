@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+	<title>Block user</title>
+</head>
+<body>
+	<div class="all_content">
+		<header>
+			<div class="header_txt">
+				<p>Administrator</p>
+				<div class="admin_info">
+					<p>name surname</p>
+					<img src="images/lvndr.jpg">	
+				</div>
+			</div>
+		</header>
+
+		<div class="workspace">
+			<div class="menu">
+				<p>Меню</p>
+				<div class="menu_list">
+					<div class="menu_btn">
+						<img src="images/program.svg">
+						<label for="btn">Програми</label>
+						<input type="button" name="btn" id="btn" style="display:none;">
+					</div>
+
+					<div class="menu_btn">
+						<img src="images/user.svg">
+						<label for="btn">Користувачі</label>
+						<input type="button" name="btn" id="btn" style="display:none;">
+					</div>
+
+					<div class="menu_btn">
+						<img src="images/people.svg">
+						<label for="btn">Учасники програми</label>
+						<input type="button" name="btn" id="btn" style="display:none;">
+					</div>
+
+					<div class="menu_btn"> 
+						<img src="images/ask.svg">
+						<label for="btn">Звернення</label>
+						<input type="button" name="btn" id="btn" style="display:none;">
+					</div>
+
+					<div class="menu_btn">
+						<img src="images/money.svg">
+						<label for="btn">Книга руху коштів</label>
+						<input type="button" name="btn" id="btn" style="display:none;">
+					</div>
+				</div>
+			</div>
+
+			<div class="screen">
+
+				<div class="block_user">
+					<h5>Підтвердження блокування</h5>
+					<p>Ви дійсно хочете заблокувати Користувача 1?</p>
+					<div class="user_btn" id="block_btn">
+						<input type="button" class="purple_btn_user" value="Назад">
+						<input type="button" class="purple_btn_user" value="Заблокувати">
+					</div>
+				</div>
+
+				<div class="move_right">
+					<div class="category">
+						<h2>Список користувачів</h2>
+						<input type="button" class="purple_btn" value="Додати користувача">
+					</div>
+				</div>
+				
+
+				<div class="program_list">
+					<div class="user">
+						<p>Користувач 1</p>
+						<div class="user_btn">
+							<input type="button" class="purple_btn_user" value="Змінити пароль">
+							<input type="button" class="purple_btn_user" value="Заблокувати">
+						</div>
+					</div>
+
+					<div class="user">
+						<p>Користувач 2</p>
+						<div class="user_btn">
+							<input type="button" class="purple_btn_user" value="Змінити пароль">
+							<input type="button" class="purple_btn_user" value="Заблокувати">
+						</div>
+					</div>
+
+					<div class="user">
+						<p>Користувач 3</p>
+						<div class="user_btn">
+							<input type="button" class="purple_btn_user" value="Змінити пароль">
+							<input type="button" class="purple_btn_user" value="Заблокувати">
+						</div>
+					</div>
+
+					<div class="user">
+						<p>Користувач 4</p>
+						<div class="user_btn">
+							<input type="button" class="purple_btn_user" value="Змінити пароль">
+							<input type="button" class="purple_btn_user" value="Заблокувати">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
