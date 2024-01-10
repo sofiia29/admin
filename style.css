@@ -126,7 +126,7 @@ body{
 	border: 1px solid #776C6C;
 	box-sizing: border-box;
 	background: #D9D9D9;
-	height: 100vh;
+	height: 110vh;
 	align-items: center;
 }
 
@@ -305,7 +305,8 @@ h2{
 	font-weight: 400;
 	line-height: normal;
 	text-align: center;
-	padding: 13px 230px;
+/*	padding: 13px 230px;*/
+	padding: 13px;
 	box-sizing: border-box;
 	margin: 0;
 	width: 690px;
@@ -380,13 +381,72 @@ h2{
 	line-height: normal;
 	margin: 0;
 	text-align: left !important;
-}
-
-.member_list{
-	margin-top: 35px;
+	width: 100%;
 }
 
 .member{
 	gap: 45px;
 	width: 1030px;
+}
+
+.member_btn{
+	display: flex;
+	flex-direction: row;
+	gap: 73px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 64px;
+}
+
+.docs_col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.docs_col h4{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.docs_row{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.new_member{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+}
+
+.new_member p{
+	margin: 0;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.appeal img{
+	width: 40px;
+}
+
+.appeal:hover{
+	background: #9F9DC5;
+}
+
+.money_btn{
+	margin: 0;
+}
+
+.filter{
+	margin-top: 40px;
 }
